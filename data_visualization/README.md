@@ -40,9 +40,32 @@ Data points are plotted on a Cartesian coordinate grid and connected with lines.
 - If more comparisons are needed, use small multiples (separate charts for each series).
 
 ### Bar Charts
-Bar charts use rectangular bars to represent values across categories. They are useful for comparing discrete data, such as sales across regions, or frequencies of survey responses.
+<p style="text-align: justify"> A bar chart uses horizontal or vertical bars to compare numerical values across categories. </p>
 
-### 
+<div style="display: flex; justify-content: center">
+<!-- <img src="https://datavizcatalogue.com/methods/images/anatomy/bar_chart.png"> -->
+</div>
+
+#### How to Read
+- X-axis / Y-axis: one shows categories, the other shows numerical values.
+- The length/height of each bar represents the value for that category.
+- Used to answer “how many?” in each category.
+
+#### Tips
+- Best for <b>categorical</b> (discrete) data, not continuous intervals.
+- Do not confuse with histograms (which show continuous distributions).
+- Choose between horizontal vs. vertical bars depending on readability.
+
+### Histogram
+A histogram is a chart that shows the distribution of data over a continuous interval. It groups values into intervals (bins) and uses bars to represent the frequency of data within each bin.
+
+#### How to Read
+- X-axis: the continuous intervals (bins).
+- Y-axis: frequency (how many values fall into each bin).
+- Bar height = frequency of data in that interval.
+- Helps identify where values are concentrated, extremes, gaps, or unusual values.
+
+#### Tips
 
 ### Pie Charts
 
